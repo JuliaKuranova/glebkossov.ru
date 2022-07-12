@@ -1,0 +1,39 @@
+.plug {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 33px;
+    // margin: 456px 113px 213px 113px;
+    row-gap: 24px;
+    // row-gap: 44px;
+}
+.plug_text {
+    font-family: "Oceanwide", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    // font-size: 30px;
+    // line-height: 38px;
+    text-align: center;
+    color: #828194;
+    max-width: 720px;
+}
+.plug_text_color {
+    background: linear-gradient(93.89deg, #3300FF 0%, #1BFF76 52.54%, #FFF500 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media (min-width:768px) {
+    main {
+        margin: auto;
+    }
+    .plug {
+        margin: 264px auto  213px auto ;
+        row-gap: 44px;
+    }
+    .plug_text {
+        font-size: 30px;
+        line-height: 38px;
+    }
+}
